@@ -130,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/photo"
-            android:layout_marginBottom="-217dp"
+            android:layout_marginBottom="-216dp"
             android:src="@drawable/ic_baseline_notifications_active_24"
             android:layout_marginStart="160dp"
             android:layout_marginLeft="160dp"
