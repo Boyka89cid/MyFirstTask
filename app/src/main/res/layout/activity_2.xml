@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6098"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/first_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_menu_24"
+            android:contentDescription="@string/view_three_lines" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/first_one"
+            android:contentDescription="@string/two_dots"
+            android:src="@drawable/ic_baseline_donut_large_24"
+            android:layout_toEndOf="@+id/first_one"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="320dp" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/my_photo"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:contentDescription="@string/my_images"
+            android:background="@drawable/rounded_photo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:text="@string/my_name"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-80dp"
+            android:layout_marginStart="149dp"
+            android:layout_marginLeft="149dp"
+            android:text="@string/designer"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-130dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:text="@string/salary_money"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-160dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginLeft="82dp"
+            android:text="@string/salary_text"
+            android:textSize="16sp"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-170dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-130dp"
+            android:layout_marginStart="292dp"
+            android:layout_marginLeft="292dp"
+            android:text="@string/bonus_money"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-160dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginLeft="290dp"
+            android:text="@string/bonus_text"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-220dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/overview"
+            android:textSize="26sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-217dp"
+            android:src="@drawable/ic_baseline_notifications_active_24"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="160dp"
+            android:contentDescription="@string/my_images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-220dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginLeft="270dp"
+            android:text="@string/date"
+            android:textSize="22sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-260dp"
+            android:src="@drawable/ic_baseline_arrow_upward_24"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:contentDescription="@string/my_images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-264dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/sent"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-260dp"
+            android:src="@drawable/ic_baseline_arrow_upward_24"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:contentDescription="@string/my_images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-264dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginLeft="205dp"
+            android:text="@string/dollars1"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-310dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/receive"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-306dp"
+            android:src="@drawable/ic_baseline_arrow_downward_24"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:contentDescription="@string/my_images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-310dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginLeft="205dp"
+            android:text="@string/dollars2"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-350dp"
+            android:src="@drawable/ic_baseline_home_24"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:contentDescription="@string/my_images" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-350dp"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:contentDescription="@string/my_images" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginBottom="-350dp"
+            android:src="@drawable/ic_baseline_security_24"
+            android:layout_marginStart="240dp"
+            android:layout_marginLeft="240dp"
+            android:contentDescription="@string/my_images" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/photo"
+            android:layout_marginStart="350dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginBottom="-350dp"
+            android:contentDescription="@string/my_images"
+            android:src="@drawable/ic_baseline_report_problem_24" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
