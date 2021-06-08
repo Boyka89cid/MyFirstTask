@@ -9,4 +9,19 @@
     <string name="login">Login</string>
     <string name="sign_up">SignUp</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="view_three_lines"/>
+    <string name="two_dots"/>
+    <string name="my_images"/>
+    <string name="my_name">Kushal Devgun</string>
+    <string name="designer">Software Developer</string>
+    <string name="salary_money">$8900</string>
+    <string name="salary_text">Salary</string>
+    <string name="bonus_money">$900</string>
+    <string name="bonus_text">bonus</string>
+    <string name="overview">Overview</string>
+    <string name="date">8 June,2021</string>
+    <string name="sent">Sent</string>
+    <string name="receive">Receive</string>
+    <string name="dollars1">$1800</string>
+    <string name="dollars2">2100$</string>
 </resources>
