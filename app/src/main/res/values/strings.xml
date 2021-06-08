@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstTask</string>
+    <string name="opening_image">OpeningImage</string>
+    <string name="mail_text">Email Address</string>
+    <string name="password_text">Password</string>
+    <string name="mail_image">Mail Image</string>
+    <string name="set_hint_mail">Enter your Email Here</string>
+    <string name="set_password_mail">Enter your Password Here</string>
+    <string name="login">Login</string>
+    <string name="sign_up">SignUp</string>
+    <string name="forgot_password">Forgot Password?</string>
+</resources>
