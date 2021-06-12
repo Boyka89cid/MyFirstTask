@@ -3,6 +3,7 @@ package com.example.myfirsttask;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.InputType;
 import android.widget.Button;
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity
         btn1 = findViewById(R.id.btn1);
         btnEye = findViewById(R.id.btn_eye);
         password = findViewById(R.id.enter_pass);
+        int login_color= Color.rgb(156, 156, 14);
+        btn1.setBackgroundColor(login_color);
         btn1.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, Activity_2.class)));
         //password.getInputType(P)
         btnEye.setOnClickListener(v -> {

@@ -40,4 +40,12 @@
     <string name="text2">text_2</string>
     <string name="text3">text_3</string>
     <string name="recent_transaction">Recent Transactions</string>
+    <string name="see_all">See All</string>
+    <string name="all">ALL</string>
+    <string name="received">Received</string>
+    <string name="today">Today</string>
+    <string name="payment">Payment</string>
+    <string name="third_dollars">$30.00</string>
+    <string name="payment_done">Payment to XYZ Company</string>
+    <string name="see_details">See Details</string>
 </resources>
