@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Home_page">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="#71e5f5">
+
+        <ImageButton
+            android:id="@+id/three_lines"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#71e5f5"
+            android:contentDescription="@string/my_images"
+            android:src="@drawable/ic_baseline_menu_24"
+            app:layout_constraintBottom_toTopOf="@id/user_card_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#71e5f5"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:contentDescription="@string/my_images"
+            android:src="@drawable/ic_baseline_donut_large_24"
+            app:layout_constraintBottom_toTopOf="@id/user_card_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/my_images"
+            android:src="@drawable/my_image"
+            app:civ_border_color="#062291"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="160dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/my_name"
+            android:textSize="20sp"
+            android:textColor="#1146c2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="190dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/designer"
+            android:textSize="14sp"
+            android:textColor="#1146c2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="220dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/income"
+            android:textSize="20sp"
+            android:textColor="#1146c2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/income_dollars"
+            android:textSize="20sp"
+            android:textColor="#1146c2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginRight="110dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/expenses"
+            android:textSize="20sp"
+            android:textColor="#1146c2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginRight="140dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/expenses_dollars"
+            android:textSize="20sp"
+            android:textColor="#1146c2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/loan"
+            android:textSize="20sp"
+            android:textColor="#1146c2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/loan_dollars"
+            android:textSize="20sp"
+            android:textColor="#1146c2"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/overview"
+        android:textSize="30sp"
+        android:textColor="#1146c2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_card_view" />
+
+    <ImageButton
+        android:id="@+id/notification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="#e9f7ef"
+        android:contentDescription="@string/my_images"
+        android:src="@drawable/ic_baseline_notifications_active_24"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintLeft_toRightOf="@+id/overview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_card_view" />
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#1146c2"
+        app:layout_constraintLeft_toRightOf="@+id/notification_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_card_view"
+        app:layout_constraintHorizontal_bias=".7" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
