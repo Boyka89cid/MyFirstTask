@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">MyFirstTask</string>
     <string name="opening_image">OpeningImage</string>
     <string name="mail_text">Email Address</string>
@@ -9,9 +9,9 @@
     <string name="login">Login</string>
     <string name="sign_up">SignUp</string>
     <string name="forgot_password">Forgot Password?</string>
-    <string name="view_three_lines"/>
-    <string name="two_dots"/>
-    <string name="my_images"/>
+    <string name="view_three_lines" />
+    <string name="two_dots" />
+    <string name="my_images" />
     <string name="my_name">Kushal Devgun</string>
     <string name="designer">Software Developer</string>
     <string name="salary_money">$8900</string>
@@ -24,4 +24,20 @@
     <string name="receive">Receive</string>
     <string name="dollars1">$1800</string>
     <string name="dollars2">2100$</string>
+    <string name="menu_item_1">Home</string>
+    <string name="menu_item_2">Add</string>
+    <string name="menu_item_3">Show</string>
+    <string name="menu_item_4">Security</string>
+    <string name="menu_item_5">Report</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="loan">Loan</string>
+    <string name="income_dollars">3000$</string>
+    <string name="expenses_dollars">500$</string>
+    <string name="loan_dollars">100$</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1" tools:ignore="Typos">text_1</string>
+    <string name="text2">text_2</string>
+    <string name="text3">text_3</string>
+    <string name="recent_transaction">Recent Transactions</string>
 </resources>
